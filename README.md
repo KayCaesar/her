@@ -1,24 +1,21 @@
 <p align="center">
-  <a href="https://github.com/remiprev/her">
-    <img src="http://i.imgur.com/43KEchq.png" alt="Her" />
-  </a>
-  <br />
-  Her is an ORM (Object Relational Mapper) that maps REST resources to Ruby objects.<br /> It is designed to build applications that are powered by a RESTful API instead of a database.
+  Herr is an ORM (Object Relational Mapper) that maps REST resources to Ruby objects.<br /> It is designed to build applications that are powered by a RESTful API instead of a database.
   <br /><br />
-  <a href="https://rubygems.org/gems/her"><img src="http://img.shields.io/gem/v/her.svg" /></a>
-  <a href="https://codeclimate.com/github/remiprev/her"><img src="http://img.shields.io/codeclimate/github/remiprev/her.svg" /></a>
-  <a href='https://gemnasium.com/remiprev/her'><img src="http://img.shields.io/gemnasium/remiprev/her.svg" /></a>
-  <a href="https://travis-ci.org/remiprev/her"><img src="http://img.shields.io/travis/remiprev/her/master.svg" /></a>
+  <a href="https://rubygems.org/gems/herr"><img src="http://img.shields.io/gem/v/her.svg" /></a>
+  <a href="https://codeclimate.com/github/hderms/herr"><img src="http://img.shields.io/codeclimate/github/hderms/herr.svg" /></a>
+  <a href="https://travis-ci.org/hderms/herr"><img src="http://img.shields.io/travis/hderms/herr/master.svg" /></a>
 </p>
 
 ---
+## IMPORTANT
+This is forked from the gem `her`, which was extraordinarily useful, but had not undergone maintenance at a rate sufficient for my needs. Please check  [https://github.com/remiprev/her] and see if maintenance has resumed before using this gem.
 
 ## Installation
 
 In your Gemfile, add:
 
 ```ruby
-gem "her"
+gem "herr"
 ```
 
 That’s it!

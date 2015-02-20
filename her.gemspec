@@ -3,14 +3,14 @@ $:.push File.expand_path("../lib", __FILE__)
 require "her/version"
 
 Gem::Specification.new do |s|
-  s.name        = "her"
+  s.name        = "herr"
   s.version     = Her::VERSION
-  s.authors     = ["Rémi Prévost"]
-  s.email       = ["remi@exomel.com"]
+  s.authors     = ["Rémi Prévost", "Dermot Haughey"]
+  s.email       = ["hderms@gmail.com"]
   s.homepage    = "http://her-rb.org"
   s.license     = "MIT"
-  s.summary     = "A simple Representational State Transfer-based Hypertext Transfer Protocol-powered Object Relational Mapper. Her?"
-  s.description = "Her is an ORM that maps REST resources and collections to Ruby objects"
+  s.summary     = "A simple Representational State Transfer-based Hypertext Transfer Protocol-powered Object Relational Mapper. Forked from 'her'"
+  s.description = "Herr is an ORM that maps REST resources and collections to Ruby objects"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
